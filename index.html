@@ -1,0 +1,38 @@
+<html>
+  <head>
+      <link rel="stylesheet" href="css/jquery-ui-1.9.2.custom.min.css" type="text/css"/>
+      <link rel="stylesheet" href="css/GeoChart.css" type="text/css"/>
+      <script type='text/javascript' src='https://www.google.com/jsapi'></script>
+      <script type="text/javascript" src="JS/jquery-2.1.0.min.js"></script>
+      <script type="text/javascript" src="JS/jquery-ui-1.9.2.min.js"></script>
+      <script type="text/javascript" src="JS/GeoChart.js">
+       
+
+     //google.load('visualization', '1', {'packages': ['geochart']});
+     //google.setOnLoadCallback(drawRegionsMap);
+
+     
+    </script>
+  </head>
+  <body class='' style="font-family: Arial;border: 0 none;">
+    <table id="tblChart">
+      <tr>
+        <td>
+          <div id="Geochart" style="width: 500px; height: 300px;"></div>
+        </td>
+        <td>
+          <div id="table" style="width: 300px; height: 300px;"></div>
+        </td>
+      </tr>
+      <tr>
+          <td>
+              <div class ='divNavigation' id="divNavigation"> 
+                <span class="ui-priority-primary" id="spnHome">Home</span>
+                 <span id ="spnCountries"></span>
+                  <span id="spnState"></span>
+               </div>
+              </td>
+      </tr>
+    </table>
+  </body>
+</html>
